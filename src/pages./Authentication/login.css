@@ -1,0 +1,84 @@
+ @import "/src/styless/main.css";
+ @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Permanent+Marker&family=Roboto+Slab&family=Rubik+Wet+Paint&family=Satisfy&family=Shadows+Into+Light&family=Tapestry&display=swap');
+
+
+:root{
+    --special-fontsize:1.2rem;
+    --cursor:pointer;
+    --border:0px;
+    --special-padding:0.3rem;
+    --secondary-padding:1.8rem;
+    --hover-color:rgb(44, 53, 99);
+    --login-color:rgb(49, 132, 165);
+    --login-font:1rem;
+    --loginBtn-color:rgb(34, 26, 70);
+    --hover-color:rgb(166, 166, 194);
+    --forgetLink-color:rgb(255, 30, 0);
+}
+.login-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--secondary-color);
+    padding:1.6rem;
+    height:65vh;
+} 
+.login{
+    width:16rem;
+    display:flex;
+    flex-direction:column;
+    background-color: var(--primary-color);
+    align-items:center;
+    color:var(--white-color);
+    gap: 0.6rem ;
+    padding: 1.3rem;
+    margin-top:0.8rem;
+    border-radius: 0.4rem;
+    font-family: 'Libre Bodoni', serif;
+}
+.authLable{
+    width: 100%;
+    padding:var(--special-padding);
+    outline:none;
+    font-size:var(--login-font);
+    background-color:var(--secondary-color);
+}
+.forget-link{
+    color:var(--forgetLink-color);
+    font-size:var(--login-font);
+}
+.loginBtn{
+    background-color:var(--login-color);
+    font-size:var(--login-font);
+    color:var(--white-color);
+    border:var(--border);
+    cursor: var(--cursor);
+}
+.loginBtn:hover{
+    background-color:var(--hover-color);
+}
+
+.CreateBtn{
+    width: 10rem;
+    border: 0px;
+    cursor: var(--cursor);
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+.CreateBtn:hover{
+    color:var(--hover-color);
+}
+.LoginBtn-contain{
+    width:10rem;
+}
+.loginBtn{
+    background-color:var(--loginBtn-color);
+}
+.GuestBtn{
+    background-color:var(--secondary-color);
+    font-size:1rem;
+}
+.GuestBtn:hover{
+    background-color:var(--hover-color);
+}
+
