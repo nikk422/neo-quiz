@@ -1,0 +1,22 @@
+@import "/src/styless/main.css";
+
+.navbar-container{
+    padding:1rem;
+    background-color:var(--primary-color);
+    color:var(--white-color);
+}
+.navbar-header{
+    display:flex;
+    justify-content:space-between;
+    gap:1rem;
+}
+.navbar-section{
+    display:flex;
+    gap:1rem;
+}
+.navbar-link{
+    color:var(--white-color);
+}
+.headHover:hover{
+    color:var( --hoverColor);
+}
