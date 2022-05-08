@@ -10,10 +10,10 @@ const Navbar = () => {
             <h2 className="headHover navbar-link">NeoQuiz</h2>
           </Link>
           <div className="headHover navbar-section">
-            <Link to="">
+            <Link to="/rules">
               <h2 className="headHover navbar-link">Rules</h2>
             </Link>
-            <Link to="">
+            <Link to="/login">
               <h2 className="headHover navbar-link">Login</h2>
             </Link>
           </div>

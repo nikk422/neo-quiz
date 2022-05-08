@@ -1,0 +1,40 @@
+@import "./login.css";
+
+.sign-container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    background-color:var(--secondary-color);
+    padding:1.6rem;
+    height:65vh;
+}
+.emialContain{
+    display:flex;
+    gap:1.5rem;
+}
+.authEmail{
+    width:100%;
+    padding:0.3rem;
+    outline:none;
+    font-size:0.9rem;
+    background-color:var(--secondary-color);
+}
+.logBlue{
+    background-color:var(--login-color);
+    width: 15rem;
+    font-size:1rem;
+    color:var(--white-color);
+    border:var(--border);
+    cursor: var(--cursor);
+}
+.logBlue:hover{
+    background-color:var(--hover-color);
+}
+.alreadyAcount{
+    border: var(--border);
+    background-color:var(--secondary-color);
+    cursor: var(--cursor);
+}
+.alreadyAcount:hover{
+    background-color:rgb(166, 166, 194);
+}

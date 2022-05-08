@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Permanent+Marker&family=Roboto+Slab&family=Rubik+Wet+Paint&family=Satisfy&family=Shadows+Into+Light&family=Tapestry&display=swap');
+@import "/src/styless/main.css";
+
+.Rules-container{
+    background-color:var(--secondary-color);
+    padding:1.6rem;
+    height:65vh;
+    display:flex;
+    justify-content: center; 
+}
+.rules-contain{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    font-family: 'Libre Bodoni', serif;
+    font-size: 1.5rem;
+}
+
+.start-btn{
+    width:10rem;
+    padding: var(--special-padding);
+    font-size:var(--special-font-size);
+    font-weight:var(--bold-size);
+    background-color:var(--primary-color);
+    color:var(--white-color);
+}
+.start-btn:hover{
+    background-color:rgb(12, 6, 17);
+}
