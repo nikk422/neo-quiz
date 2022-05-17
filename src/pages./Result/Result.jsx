@@ -12,8 +12,8 @@ const Result = () => {
           <div className="ques">
             <h2>{que.Ques}</h2>
             <ol className="questions-child">
-              {que.option.map((opt) => (
-                <li className="mcq-ans" id={que.ans===opt ? "bg-color" : ""}>{opt}</li>
+              {que.option.map((opt,index) => (
+                <li className="mcq-ans" id={que.ans===index ? "bg-color" : ""}>{opt}</li>
               ))}
             </ol>
             <hr />
