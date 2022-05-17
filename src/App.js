@@ -6,6 +6,7 @@ import Footer from "./Componants/footer/Footer"
 import Rules from "./pages./Rules/Rules";
 import Login from "./pages./Authentication/Login"
 import {Questions} from "./pages./quiz-questions/Questions";
+import Result from "./pages./Result/Result";
 import RequireAuth from './pages./PrivateAuth/RequireAuth';
 import Signup from "./pages./Authentication/SignUp";
 
@@ -17,6 +18,7 @@ function App() {
       <Route path="/" element={<Home/>}/>
       <Route path="/login" element={<Login/>}/>
       <Route path="/question" element={<Questions/>}/>
+      <Route path="/result" element={<Result/>}/>
       <Route path="rules" element={
       <RequireAuth>
         <Rules/>

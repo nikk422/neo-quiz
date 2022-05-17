@@ -148,7 +148,7 @@ const Questions = () => {
 
   const optionHandler = (opt) => {
         setDisableBtn(true)
-    if (Question[count].ans === [opt]) {
+    if (Question[count].ans == [opt]) {
       setScore(score=>score + 2);
     };
 
