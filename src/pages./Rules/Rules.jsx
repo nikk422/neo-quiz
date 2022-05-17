@@ -11,7 +11,7 @@ const Result=()=>{
                 <li>For Each incorrect answer there will be 0 point.</li>
                 <li>You may not change the option once opted</li>
             </ol>
-            <Link to="/">
+            <Link to="/question">
                 <button className="start-btn headHover">Start Quiz..</button>
             </Link>
             </div>

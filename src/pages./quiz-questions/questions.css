@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Permanent+Marker&family=Roboto+Slab&family=Rubik+Wet+Paint&family=Satisfy&family=Shadows+Into+Light&family=Tapestry&display=swap');
+
+.quiz-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    background-color: var(--secondary-color);
+    padding: 1.6rem;
+}
+
+.questions-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.questions-contain {
+    width: 16rem;
+    border: 1px solid rgb(167, 152, 152);
+    padding: 1.5rem;
+    font-family: 'Libre Bodoni', serif;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: var(--border-radius);
+}
+
+.mcq-ans {
+    width: 13rem;
+    border: 1px solid rgb(196, 177, 177);
+    padding: var(--special-padding);
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    font-weight: var(--bold-size);
+    font-size: var(--special-font-size);
+}
+.mcq-ans:hover {
+    background-color: var(--grey-color);
+}
+.submitBtn {
+    width: 8rem;
+    padding: var(--special-padding);
+    font-size: var(--special-font-size);
+    font-weight: var(--bold-size);
+    border-radius: var(--border-radius);
+}
+
+.submitBtn:hover {
+    background-color: var(--primary-color);
+    color: var(--white-color);
+}
+
+
+.btn[disabled]{
+  background-color: white;
+  color: black;
+  cursor:auto;
+}

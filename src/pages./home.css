@@ -23,7 +23,7 @@
     color:var(--black);
     border: 0.1px solid var(--black);;
     padding:var(--special-padding);
-    border-radius:0.5rem;
+    border-radius:var(--border-radius);
     font-family: 'Libre Bodoni', serif;
     background-color:var(--black);
     color:var(--white-color);
@@ -32,4 +32,21 @@
    background-color:rgb(46, 3, 59);
    color:var(--white-color);
 }
+.input-box{
+    padding:0.3rem;
+    font-size:1.2rem;
+    background-color:  var(--primary-color);
+    color:var(--white-color);
+}
+.textCenter{
+    text-align:center;
+}
+
+.home-heading{
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+
+}
+
 
