@@ -4,7 +4,7 @@
 .Rules-container{
     background-color:var(--secondary-color);
     padding:1.6rem;
-    height:67vh;
+    height:69vh;
     display:flex;
     justify-content: center; 
 }
