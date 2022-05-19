@@ -57,3 +57,7 @@
   color: black;
   cursor:auto;
 }
+.questions{
+    font-weight: var(--bold-size);
+    font-size: 1.3rem;
+}

@@ -166,9 +166,9 @@ const Questions = () => {
     <section className="quiz-container">
       <h1 className="heading">"Hello {name} are you Ready for Quiz???"</h1>
       <div className="questions-contain">
-      <h3 className="questions ">
+      <p className="questions ">
          {Question[count].Ques}
-      </h3>
+      </p>
       <ol className="questions-child">
         {Question[count].option.map((opt, index) => (
           <li>
