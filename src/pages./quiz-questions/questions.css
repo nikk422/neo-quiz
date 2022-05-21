@@ -54,7 +54,7 @@
 
 
 .btn[disabled]{
-  background-color: white;
+  background-color: var(--white-color);
   color: black;
   cursor:auto;
 }
