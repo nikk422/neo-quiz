@@ -1,7 +1,9 @@
 import "./sign.css";
 import {Link} from "react-router-dom";
 
+
  const SignUp=()=>{
+  
     return(
         <div className=" sign-container"> 
         <div className="login">
@@ -34,7 +36,6 @@ import {Link} from "react-router-dom";
                 <input type="checkbox" name="terms-conditions" className="ConditionBtn"></input>
                 I accept all Terms & Conditions
             </label>
-
             <button className="logBlue">Login</button>
             <Link to="/Login">
             <button className="alreadyAcount">Already have an Acount</button>
